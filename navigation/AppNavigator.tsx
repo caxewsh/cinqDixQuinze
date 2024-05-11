@@ -4,7 +4,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import LogoTitle from "../components/features/HomeScreen/LogoTitle";
 import HomeScreen from '../screens/HomeScreen';
 import LoadingScreen from '../screens/LoadingScreen';
-// import GameScreen from '../screens/GameScreen';
+import GameScreen from '../screens/GameScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -31,7 +31,18 @@ const AppNavigator = () => (
                 fontWeight: 'bold',
             },
             }}/>
-    {/* <Stack.Screen name="Game" component={GameScreen} /> */}
+    <Stack.Screen name="Game" component={GameScreen} 
+        options={{
+            headerShown: false,
+            gestureEnabled: false, 
+            headerStyle: {
+                backgroundColor: '#606C38',
+            },
+            headerTintColor: '#fff',
+            headerTitleStyle: {
+                fontWeight: 'bold',
+            },
+            }} />
   </Stack.Navigator>
 );
 
