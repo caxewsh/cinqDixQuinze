@@ -12,7 +12,7 @@ const StartGameButton: React.FC<StartGameButtonProps> = ({ navigation }) => (
     style={styles.button}
     onPress={() => navigation.navigate('Loading')}
   >
-    <Text style={styles.text}>Go fight ! 🚀</Text>
+    <Text style={styles.text}>Go fight ! ⚔</Text>
   </TouchableOpacity>
 );
 
