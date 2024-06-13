@@ -13,7 +13,7 @@
     "preview": {
       "ios": {
         "simulator": true
-      }
+      },
     "production": {}
   },
   "submit": {
