@@ -1,0 +1,4 @@
+appId: com.axe.l.r.cinqDixQuinze
+---
+- launchApp
+- waitForAnimationToEnd
