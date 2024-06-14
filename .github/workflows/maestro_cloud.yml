@@ -24,9 +24,6 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Build project
-      run: npm run build
-
     - name: Run tests on Maestro Cloud
       id: maestro
       uses: mobile-dev-inc/action-maestro-cloud@v1.8.1
