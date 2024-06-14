@@ -1,0 +1,12 @@
+appId: com.axe.l.r.cinqDixQuinze
+---
+- launchApp
+
+- assertVisible: "Bienvenue sur le 5-10-15!"
+- assertVisible: "Classement 🏆"
+- tapOn: "Go fight ! ⚔"
+
+- waitForAnimationToEnd
+- assertVisible: "Round 1"
+
+- stopApp
