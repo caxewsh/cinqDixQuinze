@@ -1,8 +1,10 @@
 appId: com.axe.l.r.cinqDixQuinze
+tags: 
+  - pr
 ---
 - launchApp
 
-- assertVisible: "Bienvenue sur le 5-10-15!"
+- runFlow: subFolder/test.yaml
 - assertVisible: "Classement 🏆"
 - tapOn: "Go fight ! ⚔"
 
