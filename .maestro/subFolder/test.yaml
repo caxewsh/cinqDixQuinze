@@ -1,0 +1,3 @@
+appId: com.axe.l.r.cinqDixQuinze
+---
+- assertVisible: "Bienvenue sur le 5-10-15!"

@@ -1,0 +1,6 @@
+flows:
+  - "*"             # the default behaviour
+  - "subFolder/*"
+
+includeTags:
+  - pr
